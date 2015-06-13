@@ -1,0 +1,28 @@
+.table .btn {
+	width: 100%;
+}
+.table-responsive {
+	width: 75%;
+}
+.header {
+	position: relative;
+	padding: 30px 15px;
+	text-align: center;
+	color: rgba(255,255,255,.8);
+	background-color: #b84d45;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+.table-responsive .btn.add-book, .table-responsive .search-text{
+	float: right;
+}
+.table-responsive .search-text{
+	width: 25%;
+	margin-bottom: 20px;
+}
+.info-book .row .col-md-2{
+	font-weight: bold;
+}
+.header-italic{
+	font-style: italic;
+}

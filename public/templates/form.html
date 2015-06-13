@@ -1,0 +1,51 @@
+   <div class="container center-block">
+    <form>
+      <fieldset>
+        <legend>{{ textButton }}</legend>
+
+        <div class="row">
+          <div class="col-md-2">Name</div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Name" ng-model="book.name" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">Description</div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Description" ng-model="book.description" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">Author</div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Author" ng-model="book.author" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">Language</div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Language" ng-model="book.language" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">Theme</div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Theme" ng-model="book.theme" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">Edition</div>
+          <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Edition" ng-model="book.edition" required>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">{{ textButton }}</button>
+      </fieldset>
+    </form>
+  </div>

@@ -1,0 +1,72 @@
+[{
+    "name": "The Amityville Horror",
+    "author": "Jay Anson",
+    "description": "A real possessed house drives a family crazy and causes strange happenings. They had learned of the house's past, and the murders that were in it. However, they ignored it. This is a true story from years ago. Let me warn you may not like what you read. Reader discretion is advised.",
+    "language": "English",
+    "edition": "First",
+    "theme": "Thriller" 
+},
+{
+    "name": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "description" : "This classic twisting tale all starts with a portrait of a beautiful young man, Dorian Gray.",
+    "language": "English",
+    "edition": "First",
+    "theme": "Fiction"
+},
+{
+    "name": "The Many Pieces of Me",
+    "author": "Heather Semon",
+    "description" : "After reading through this book, you will understand why writing is so important. You will be able to write all about yourself after reading through this book.",
+    "language": "Spanish",
+    "edition": "Second",
+    "theme": "Language & Literature"
+},
+{
+    "name": "SUCCESS for Teens",
+    "author": "Jeff Olson",
+    "description" : "Tis book helps teens embrace eight principles that will allow them to shpae the futures they want. Also it directs them toward a path that enables them to achieve their goals.",
+    "language": "German",
+    "edition": "Third",
+    "theme": "Self-Improvement"
+},
+{
+    "name": "Graphing: Slope-Intercept Form",
+    "author": "Karen Cameron",
+    "description" : "This is a short book about graphing lines written in slope-intercept form. It is meant as a reference for deeper study in Algebra. I hope you find it useful.",
+    "language": "Italian",
+    "edition": "First",
+    "theme": "Mathematics"
+},
+{
+    "name": "Faces of Nature",
+    "author": "Suresh Babu Palani",
+    "description" : "This book is a collection of 'Haiku' poems that depicts the different faces of nature (sweet, romantic and harsh faces). I hope you will enjoy them. Best regards, Suresh Babu Palani.",
+    "language": "English",
+    "edition": "First",
+    "theme": "Nature"
+},
+{
+    "name": "Lucky Guy",
+    "author": "Scott Wampler",
+    "description" : "Man suspected of murder has to prove himself innocent.",
+    "language": "Portuguese",
+    "edition": "Second",
+    "theme": "Crime & Mistery"
+},
+{
+    "name": "How to Survive A Horror Movie",
+    "author": "Chant'e Francis",
+    "description" : "The Guide book on how to survive a scary movie, reading this will increase your chances of survival and provide intense amusement.",
+    "language": "French",
+    "edition": "First",
+    "theme": "Humor"
+},
+{
+    "name": "How To Accomplish Anything You Want In Life",
+    "author": "Michael Collier",
+    "description" : "Steps to assist anyone how to accomplish their goals.",
+    "language": "English",
+    "edition": "First",
+    "theme": "Business & Economics"
+}]
