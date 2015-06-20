@@ -5,7 +5,7 @@ var BookSchema = new Schema({
   name: { 
     type : String,
     trim : true,
-  }
+  },
   description: String,
   author: String,
   language: String,
@@ -14,4 +14,4 @@ var BookSchema = new Schema({
 
 });
 
-mongoose.model('Book', UserSchema);
+mongoose.model('Book', BookSchema);
