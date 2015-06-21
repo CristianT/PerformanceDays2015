@@ -1,11 +1,11 @@
 var books = require('../../app/controllers/books.server.controller');
 
 module.exports = function(app) {
-  app.route('/api/books')
+  app.route('/books')
      .get(books.list)
      .post(books.create);
   
-  app.route('/api/books/:bookId')
+  app.route('/books/:bookId')
      .get(books.read)
      .put(books.update)
      .delete(books.delete);
