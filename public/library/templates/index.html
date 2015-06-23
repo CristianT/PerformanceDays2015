@@ -1,0 +1,33 @@
+<!--If there is not any book to show, a message is displayed-->
+<div class="container center-block">
+	<div ng-show="books.length == 0">
+		<h3 class="heading">There are not any available books</h3>
+	</div>
+	<div class="table-responsive center-block">
+		<!--Text field 'searchText' that will serve to filter the results (we are going to use it in the filter attribute displayed below) -->
+		<!-- The results are only shown if there are books available -->
+		<input type="text" class="form-control search-text" ng-model="searchText" placeholder="Search..." ng-show="books.length > 0" />
+		<table class="table table-bordered table-hover table-condensed">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Author</th>
+					<th>Theme</th>
+					<th></th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Our books have not the property id but we need this identifier to delete them. The way to do this is touring the array and adding the id key. On this way we can know which is the reference of the book and add, edit and remove books without having the identifier define. AngularJS will assign to each item an identifier autoincremental -->
+				<tr ng-repeat="book in books | filter: searchText">
+					<td><a href="#/info/{{book._id}}">{{book.name}}</a></td>
+					<td>{{book.author}}</td>
+					<td>{{book.theme}}</td>
+					<td><a href="#/edit/{{book._id}}" class="btn btn-default" role="button">Edit</a></td>
+					<td><a href="#/remove/{{book._id}}" class="btn btn-default" role="button">Remove</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<div> <a href="#/add/{{book.id}}" class="btn btn-primary add-book" role="button">Add</a></div>
+	</div>
+</div>

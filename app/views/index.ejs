@@ -1,0 +1,37 @@
+<!doctype html>  
+<html lang="en" ng-app="app">  
+<head>  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Angular Library App</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style/main.css">
+</head>  
+<body>
+	<div ng-controller="appController">
+		<!-- Navigation bar -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Home</a>
+			</div>
+		</nav>
+		<!-- Header --> 
+		<header class="header">
+			<div class="container">
+				<h1>CRUD Library Application</h1>
+				<p> Managing the repository of books</p>
+			</div>
+		</header>
+		<!-- The HTML related with each route will be loaded dynamically with the directive ng-view -->
+		<div ng-view></div> 
+	</div>
+	<script src="lib/angular.js"></script>
+	<script src="library/library.module.js"></script>
+	<script src="library/controllers/appController.js"></script>
+	<script src="library/controllers/addController.js"></script>
+	<script src="library/controllers/editController.js"></script>
+	<script src="library/controllers/infoController.js"></script>
+	<script src="library/controllers/removeController.js"></script>
+	<script src="application.js"></script>
+</body>  
+</html>  
