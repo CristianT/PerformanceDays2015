@@ -5,10 +5,6 @@ module.exports = function() {
 	var db = mongoose.connect(config.db);
 
 	require('../app/models/book.server.model');
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> origin/master
 	return db;
 };

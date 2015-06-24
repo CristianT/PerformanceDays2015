@@ -14,11 +14,7 @@ exports.create = function(req, res, next) {
 exports.list = function(req, res) {
   Book.find().sort('-name').exec(function(err, books) {
     if (err) {
-<<<<<<< HEAD
     	 return res.status(400).send({
-=======
-       return res.status(400).send({
->>>>>>> origin/master
         message: getErrorMessage(err)
       });
     } else {
@@ -33,7 +29,6 @@ exports.read = function(req, res) {
 
 exports.bookByID = function(req, res, next, id) {
   Book.findOne({
-<<<<<<< HEAD
   	_id: id
   }, function(err, book) {
     if (err){
@@ -41,15 +36,6 @@ exports.bookByID = function(req, res, next, id) {
     } else {
     	req.book = book;
     	next();
-=======
-    _id: id
-  }, function(err, book) {
-    if (err){
-      return next(err);
-    } else {
-      req.book = book;
-      next();
->>>>>>> origin/master
     }   
   });
 };
@@ -64,11 +50,6 @@ exports.update = function(req, res, next) {
   });
 };
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/master
 exports.delete = function(req, res, next) {
   req.book.remove(function(err) {
     if (err) {
